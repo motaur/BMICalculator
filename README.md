@@ -1,25 +1,25 @@
 # BMI Calculator
 Assignment 2 Android - BMI Calculator
 
-#Goal:
-Writing an Android mobile application that will be able to calculate BMI and ideal weight of person when his weight, height, age, body frame are known.
+#Goal: 
+Study basics of android development. Writing an Android mobile application that will be able to calculate BMI and ideal weight of person when his weight, height, age, body frame are known.
 By doing so we learn how to build mobile application using Android Studio.
 
 #Formulas:
 BMI = weight in kilos / height in metres^2
 
 BMI                     Weight Status 
-Below 15	              Anorexic
+Below 15	        Anorexic
 15 - 18.5               Underweight 
 18.5 – 24.9             Normal 			     
-25.0 – 29.9 	          Overweight 
+25.0 – 29.9 	        Overweight 
 30.0 - 35               Obese
-Above 35	              Extreme Obese
+Above 35	        Extreme Obese
 
-  body-frame		slimness:
-		small:  			0.9
-		medium: 		  1
-		large:  			1.1
+body-frame	      slimness:
+small:  		0.9
+medium: 		  1
+large:  		1.1
     
    ideal weight in kilos = (height - 100 + (age / 10)) * 0.9 * slimness - for men
    ideal weight in kilos = (height - 110 + (age / 10)) * 0.85 * slimness - for women
